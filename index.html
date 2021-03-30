@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <div id="mainframe">
+        <p>Szállítási cím módosítása</p>
+        <div id="adat1">
+            <table>
+                <tr>
+                    <td>Név <sup>*</sup></td>
+                    <td id="linedifference">Telefonszám <sup>*</sup></td>
+                </tr>
+                <tr>
+                    <td>Irányítószám <sup>*</sup></td>
+                    <td>Város <sup>*</sup></td>
+                </tr>
+                <tr>
+                    <td>Ország <sup>*</sup></td>
+                    <td>Cím <sup>*</sup></td>
+                </tr>
+            </table>
+        </div>
+        <div id="adat2">
+            <form>
+                <input type="text" name="nev" value="Név">
+                <select>
+                    <option value="36" name="tel1">+36</option>
+                </select>
+                <input type="tel" name="tel2" value="123456789"><br>
+                <input type="number" name="iranyitoszam" value="1234">
+                <input type="text" name="varos" value="Budapest"><br>
+                <select>
+                    <option value="hu" name="orszag">Magyarország</option>
+                </select>
+                <input type="text" name="cim" value="Cím"><br>
+                <input type="submit" value="Mentés">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
